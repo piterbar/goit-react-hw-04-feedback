@@ -5,12 +5,6 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Notification from './Notification/Notification';
 
-// const types = {
-//   GOOD: 'good',
-//   NEUTRAL: 'neutral',
-//   BAD: 'bad',
-// };
-
 function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
